@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}{% trans "Ana Sayfa" %} - {{ block.super }}{% endblock %}
+
+{% block content %}
+<div class="jumbotron bg-light p-5 rounded-lg">
+    <h1 class="display-4">{% trans "Hoş Geldiniz!" %}</h1>
+    <p class="lead">{% trans "Şehirleri görüntüleyebilir ve arama yapabilirsiniz." %}</p>
+    <hr class="my-4">
+    <a href="{% url 'city_list' %}" class="btn btn-primary btn-lg">{% trans "Şehirleri Görüntüle" %}</a>
+</div>
+{% endblock %}

@@ -1,0 +1,61 @@
+body {
+    padding-top: 0;
+    background-color: #f0f8ff;
+}
+
+.navbar {
+    background-color: #4a69bd !important;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #f1f2f6 !important;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+    background-color: #4a69bd;
+    border-color: #4a69bd;
+}
+
+.btn-primary:hover {
+    background-color: #3c55a5;
+    border-color: #3c55a5;
+}
+
+.jumbotron {
+    background-color: #dfe4ea;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #4a69bd;
+}
+
+.form-select {
+    background-color: #f1f2f6;
+    border-color: #4a69bd;
+}
+
+.form-select:focus {
+    border-color: #3c55a5;
+    box-shadow: 0 0 0 0.2rem rgba(74, 105, 189, 0.25);
+}
+
+.alert-info {
+    background-color: #dfe4ea;
+    border-color: #4a69bd;
+    color: #4a69bd;
+}
